@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+header {
+    background-color: #48484a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    height: 95px;
+}
+
+.container {
+    display: flex; 
+    background-color:#e5e5ea;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 350px;
+    background-color: #e5e5ea;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    color: #48484a;
+    padding-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #bfbebe;
+}
+
+/* Main content styles */
+main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #e5e5ea;
+}
+
+main h2 {
+    color: #48484a;
+    padding-bottom: 10px;
+}
+
+.light-text {
+color: #888;
+line-height: 1.6;
+}
+
+.job-pointer{
+    text-align: left;
+}
+
+.social-link-box {
+    background-color:#e5e5ea;
+}
+
+.horizontal-list {
+    list-style: none;
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Align boxes with space around them */
+    align-items: center; 
+}
+
+.horizontal-list li {
+    margin-right: 115px; /* Adjust spacing between items */
+    font-size: 14px;
+}
+
+.box-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Align boxes with space around them */
+    align-items: center; /* Center items vertically */
+    background-color: #e5e5ea; /* Background color for the container */
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px; /* Padding inside the box */
+    width: 120px; /* Set a fixed width for each box */
+    background-color: #7e7e80;
+    height: 20px;
+    border-radius: 10px;
+}
+
+/* Style for social media links */
+.social-link {
+    text-decoration: none;
+    color: #ffffff; /* Link color */
+    margin: 0 10px; /* Add margin between links */
+}
