@@ -1,3 +1,3 @@
 # SanjayShetty01.github.io
 
-[Link](https://sanjayshetty01.github.io/) to my draft portfolio website
+[Link](https://sanjayshetty01.github.io/resume/) to my draft portfolio website
